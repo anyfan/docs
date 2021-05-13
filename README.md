@@ -1,5 +1,7 @@
 # ANYFAN
 
-这里还不知道该写点什么。
+{{ timeOfDay }}!
 
 ![](https://api.anyfan.top/count/?name=docs)
+
+<!-- {{ timeOfDay }}! -->
