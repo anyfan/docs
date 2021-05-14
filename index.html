@@ -155,10 +155,7 @@
       </div>
     </div>
   </div>
-  </div>
 
-  <!-- 在吉图布上进行文档编辑 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
 
 
   <script>
@@ -168,13 +165,9 @@
       // logo地址
       // logo: 'https://oss.anyfan.top/20210512172024.png',
       // 仓库地址，点击右上角的Github章鱼猫头像会跳转到此地址
-      repo: 'https://github.com/anyfan/AF_API',
+      repo: 'https://github.com/anyfan',
       // 侧边栏支持，默认加载的是项目根目录下的_sidebar.md文件
       loadSidebar: true,
-      // 生成目录的最大层级
-      // subMaxLevel: 2,
-      // 自动为每个页面增加标题
-      // autoHeader: true,
       // 导航栏支持，默认加载的是项目根目录下的_navbar.md文件
       loadNavbar: true,
       // 封面支持，默认加载的是项目根目录下的_coverpage.md文件
@@ -185,8 +178,6 @@
       subMaxLevel: 2,
       // 切换页面后是否自动跳转到页面顶部。
       auto2top: true,
-      // 执行文档里的 script 标签里的脚本，只执行第一个 script
-      // executeScript: true,
       // 找不到指定页面时加载_404.md
       notFoundPage: true,
       // 搜索功能
@@ -227,17 +218,17 @@
             } else if (hours > 5 && hours <= 7) {
               return '早上好！一日之计在于晨，美好的一天就要开始了';
             } else if (hours > 7 && hours <= 11) {
-              return'上午好！工作顺利嘛，不要久坐，多起来走动走动哦！';
+              return '上午好！工作顺利嘛，不要久坐，多起来走动走动哦！';
             } else if (hours > 11 && hours <= 14) {
               return '中午了，工作了一个上午，现在是午餐时间！';
             } else if (hours > 14 && hours <= 17) {
-              return'午后很容易犯困呢，今天的运动目标完成了吗？';
+              return '午后很容易犯困呢，今天的运动目标完成了吗？';
             } else if (hours > 17 && hours <= 19) {
               return '傍晚了！窗外夕阳的景色很美丽呢，最美不过夕阳红~';
             } else if (hours > 19 && hours <= 21) {
-              return'晚上好，今天过得怎么样？';
+              return '晚上好，今天过得怎么样？';
             } else if (hours > 21 && hours <= 23) {
-              return'已经这么晚了呀，早点休息吧，晚安~';
+              return '已经这么晚了呀，早点休息吧，晚安~';
             } else {
               return '嗨~ 快来逗我玩吧！';
             }
@@ -245,18 +236,7 @@
         }
       },
       plugins: [
-        // 在吉图布上进行文档编辑
-        EditOnGithubPlugin.create(
-          'https://github.com/anyfan/docs/blob/master/',
-          null,
-          function (file) {
-            if (file.indexOf('en') === -1) {
-              return '编辑'
-            } else {
-              return 'edit on git'
-            }
-          }
-        )
+
       ]
 
     }
