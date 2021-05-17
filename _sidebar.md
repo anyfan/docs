@@ -20,3 +20,6 @@
   * [preview](mail_preview.md)
 <!-- * [Awesome docsify](zh-cn/awesome.md) -->
 <!-- * [Changelog](zh-cn/changelog.md) -->
+
+* other
+  * [contact_me](contact_me.md)

@@ -1,6 +1,6 @@
 # ANYFAN
 
-{{ timeOfDay }}!
+{{ timeOfDay }}
 
 ![](https://api.anyfan.top/count/?name=docs)
 
