@@ -6,7 +6,7 @@
 
 - 阿里云提供邮件推送服务。
 
-- 邮件样式由`anyfan`设计
+- 邮件[样式](mail_preview.md)由`anyfan`设计
 
 - 如果您感兴趣，您可以在[GitHub](https://github.com/anyfan/Birthday_Mail)上找到源码。
 

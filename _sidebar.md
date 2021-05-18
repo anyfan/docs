@@ -17,7 +17,7 @@
 * birth_mail
 
   * [about](birth_mail.md)
-  * [preview](mail_preview.md)
+  <!-- * [preview](mail_preview.md) -->
 <!-- * [Awesome docsify](zh-cn/awesome.md) -->
 <!-- * [Changelog](zh-cn/changelog.md) -->
 
