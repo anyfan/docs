@@ -9,7 +9,7 @@
 
   * [一言（Hitokoto/ヒトコト）](hitokoto.md)
   * [Moe-counter](moe_count.md)
-  * [PIC](pic.md)
+  <!-- * [PIC](pic.md) -->
   <!-- * [开发插件](zh-cn/write-a-plugin.md) -->
   <!-- * [Markdown 配置](zh-cn/markdown.md) -->
   <!-- * [代码高亮](zh-cn/language-highlight.md) -->
