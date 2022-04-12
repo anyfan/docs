@@ -8,11 +8,11 @@
 4. 如不能遵守上述要求，请不要使用！
 
 ## 密码加密
-使用统一身份验证平台进行登录，该平台密码默认为身份后六位。可能是出于安全考虑，系统实际请求密码是输入密码加密后的密码。我们需要获取实际请求密码才能登录成功。
+使用统一身份验证平台进行登录，该平台密码默认为身份证后六位。可能是出于安全考虑，系统实际请求密码是输入密码加密后的密码。我们需要获取实际请求密码才能登录成功。
 
 这里将加密算法搬了过来，将统一身份验证平台登录密码填入下框，即可获取加密后的密码。
 
-（如不能正常显示请在[https://docs.anyfan.top/#/hytc_sign](https://docs.anyfan.top/#/hytc_sign)打开此，或者在github下载此项目使用`index.html`获取）
+（如不能正常显示请在[https://docs.anyfan.top/#/hytc_sign](https://docs.anyfan.top/#/hytc_sign)打开，或者在[github](https://github.com/anyfan/hytc-auto_cpdaily)下载此项目使用`index.html`获取）
 
 <script>
     const app = Vue.createApp({
@@ -84,4 +84,4 @@ if ($tk=='hytc'){
 
 ## 其他
 
-> 上次检查可用性 `22-04-11`
+> 上次检查可用性 `22-04-12`
