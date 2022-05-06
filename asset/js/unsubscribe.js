@@ -23,7 +23,7 @@ var birth_unsubsribe = function (id_key) {
     var checkForm = {
         birth: /^(?:(?!0000)[0-9]{4}-(?:(?:0[1-9]|1[0-2])-(?:0[1-9]|1[0-9]|2[0-8])|(?:0[13-9]|1[0-2])-(?:29|30)|(?:0[13578]|1[02])-31)|(?:[0-9]{2}(?:0[48]|[2468][048]|[13579][26])|(?:0[48]|[2468][048]|[13579][26])00)-02-29)$/,
         mail: /^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/,
-        name: /^.{0,12}$/,
+        name: /^.{1,12}$/,
         id_user: /^[0-9a-fA-F]{24}$/
     };
 
@@ -99,7 +99,7 @@ var birth_unsubsribe = function (id_key) {
                 if (checkForm.name.test(app.name)) {
                     user_data.name = app.name;
                 } else {
-                    module.showmsg('名字最长12个字符');
+                    module.showmsg('名字最少1字符，最长12字符');
                     return;
                 }
                 if (checkForm.mail.test(app.mail)) {
