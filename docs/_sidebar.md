@@ -14,9 +14,9 @@
   <!-- * [Markdown 配置](zh-cn/markdown.md) -->
   <!-- * [代码高亮](zh-cn/language-highlight.md) -->
 
-* birth_mail
+* project
 
-  * [about](birth_mail.md)
+  * [birth_mail](birth_mail.md)
   <!-- * [preview](mail_preview.md) -->
 <!-- * [Awesome docsify](zh-cn/awesome.md) -->
 <!-- * [Changelog](zh-cn/changelog.md) -->
