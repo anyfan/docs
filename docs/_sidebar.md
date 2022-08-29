@@ -17,7 +17,6 @@
 * project
 
   * [birth_mail](birth_mail.md)
-  * [dabian](dabian.md)
   <!-- * [preview](mail_preview.md) -->
 <!-- * [Awesome docsify](zh-cn/awesome.md) -->
 <!-- * [Changelog](zh-cn/changelog.md) -->
