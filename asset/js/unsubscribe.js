@@ -1,7 +1,7 @@
 var birth_unsubsribe = function (id_key) {
     var that = this;
     var config = {
-        api_url: 'https://mail-unsubscribe.vercel.app/api/',
+        api_url: 'https://mail-unsubscribe.anyfan.top/api/',
         archive_part: '#/unsubscribe?',
         id_key: id_key,
         id_user: null
